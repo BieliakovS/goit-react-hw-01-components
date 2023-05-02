@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(209, 213, 221);
+}
+
+.transactionHistory {
+  margin: 30px auto 40px auto;
+  background-color: rgb(202, 217, 231);
+  table-layout: fixed;
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid rgb(155, 160, 165);
+}
+
+thead {
+  background-color: aqua;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+td {
+  border-bottom: 1px solid white;
+  text-align: center;
+}
