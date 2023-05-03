@@ -13,18 +13,19 @@
 .item {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
   width: 250px;
   margin-top: 15px;
   padding: 10px 0;
   border: 1px solid rgb(155, 160, 165);
-
   background-color: rgb(255, 255, 255);
 }
 
 .status {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 
@@ -34,8 +35,4 @@
 
 .status.offline {
   background-color: red;
-}
-
-.name {
-  margin-left: 10px;
 }
